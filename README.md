@@ -67,7 +67,7 @@ ________________________________________
 ⚙️ Installation & Setup Guide
 Follow these steps to run the project locally:
 1️⃣ Clone Repository
-git clone https://github.com/your-username/digitools.git
+git clone https://https://github.com/RuhulAminShuvo22/DigiTools-Platf
 2️⃣ Go to Project Folder
 cd digitools
 3️⃣ Install Dependencies
