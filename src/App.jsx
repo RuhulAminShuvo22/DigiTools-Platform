@@ -9,6 +9,7 @@ import Steps from "./components/Steps";
 import Pricing from "./components/Pricing";
 import Footer from "./components/Footer";
 import productsData from "./data/data.json";
+import WorkflowSection from './components/WorkflowSection';
 
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -67,6 +68,7 @@ function App() {
 
       <Steps />
       <Pricing />
+      <WorkflowSection />
       <Footer />
 
       <ToastContainer position="top-right" />
