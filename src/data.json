@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "name": "Resume Builder Pro",
+    "description": "Create professional resumes with modern templates and ATS optimization.",
+    "price": 19,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["100+ templates", "ATS optimization", "Export to PDF"],
+    "icon": "📄"
+  },
+  {
+    "id": 2,
+    "name": "Canva Premium Pack",
+    "description": "Access premium templates, graphics, and design tools.",
+    "price": 12,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Unlimited templates", "Stock images", "Brand kit"],
+    "icon": "🎨"
+  },
+  {
+    "id": 3,
+    "name": "SEO Toolkit",
+    "description": "Boost your website ranking with advanced SEO tools.",
+    "price": 29,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["Keyword research", "Backlink analysis", "Site audit"],
+    "icon": "📈"
+  },
+  {
+    "id": 4,
+    "name": "AI Content Writer",
+    "description": "Generate high-quality content using AI technology.",
+    "price": 25,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Blog writing", "Copywriting", "Grammar check"],
+    "icon": "🤖"
+  },
+  {
+    "id": 5,
+    "name": "UI Kit Bundle",
+    "description": "Complete UI kit for web and mobile app design.",
+    "price": 49,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["Figma files", "Responsive design", "1000+ components"],
+    "icon": "🧩"
+  },
+  {
+    "id": 6,
+    "name": "Video Editor Pro",
+    "description": "Edit videos easily with powerful tools and effects.",
+    "price": 15,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["4K export", "Transitions", "Audio editing"],
+    "icon": "🎬"
+  },
+  {
+    "id": 7,
+    "name": "Stock Image Library",
+    "description": "Unlimited access to high-quality stock images.",
+    "price": 10,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["HD images", "Commercial license", "Daily updates"],
+    "icon": "🖼️"
+  },
+  {
+    "id": 8,
+    "name": "Code Snippet Pack",
+    "description": "Pre-built code snippets for faster development.",
+    "price": 20,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["React components", "Clean code", "Easy integration"],
+    "icon": "💻"
+  },
+  {
+    "id": 9,
+    "name": "Cloud Storage Plus",
+    "description": "Secure cloud storage for all your files.",
+    "price": 8,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["100GB storage", "Secure backup", "File sharing"],
+    "icon": "☁️"
+  }
+]
