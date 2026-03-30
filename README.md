@@ -4,7 +4,7 @@ This project demonstrates React fundamentals, state management, reusable compone
 ________________________________________
 🌐 Live Demo
 👉 Add your live link here
-https://your-live-site-link.com
+https://harmonious-sundae-f2f88e.netlify.app/
 ________________________________________
 📌 Project Overview
 DigiTools is a responsive web application that allows users to:
