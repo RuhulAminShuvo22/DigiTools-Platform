@@ -18,7 +18,6 @@ function App() {
   const [cart, setCart] = useState([]);
   const [activeTab, setActiveTab] = useState("products");
 
-  // Add to cart
   const handleAddToCart = (product) => {
     const exists = cart.find((item) => item.id === product.id);
 
@@ -31,14 +30,12 @@ function App() {
     toast.success("Added to cart!");
   };
 
-  // Remove item
   const handleRemove = (id) => {
     const updated = cart.filter((item) => item.id !== id);
     setCart(updated);
     toast.error("Removed from cart!");
   };
 
-  // Checkout
   const handleCheckout = () => {
     if (cart.length === 0) {
       toast.warning("Cart is empty!");
@@ -51,7 +48,11 @@ function App() {
 
   return (
     <>
-      <Navbar cartCount={cart.length} />
+      {/* ✅ UPDATED */}
+      <Navbar
+        cartCount={cart.length}
+        setActiveTab={setActiveTab}
+      />
 
       <Banner />
       <Stats />

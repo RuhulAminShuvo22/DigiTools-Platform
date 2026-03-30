@@ -1,5 +1,4 @@
 import React from 'react';
-
 import ProductCard from "./ProductCard";
 import Cart from "./Cart";
 
@@ -16,6 +15,7 @@ const ToggleSection = ({
     <div className="px-6 my-10">
 
       <div className="flex justify-center gap-4 mb-10">
+
         <button
           className={`btn rounded-full px-6 ${
             activeTab === "products" ? "btn-primary" : "btn-outline"
@@ -25,14 +25,16 @@ const ToggleSection = ({
           Products
         </button>
 
+        {/* ✅ UPDATED */}
         <button
           className={`btn rounded-full px-6 ${
             activeTab === "cart" ? "btn-secondary" : "btn-outline"
           }`}
           onClick={() => setActiveTab("cart")}
         >
-          Cart
+          Cart ({cart.length})
         </button>
+
       </div>
 
       {activeTab === "products" ? (
